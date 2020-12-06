@@ -55,7 +55,7 @@ const updateEmpreendimento = (req, res) => {
 };
 
 const deleteEmpreendimento = (req, res) => {
-    const id = req.params.id;
+    try {const id = req.params.id;
     empreendimentos.deleteOne({ id }, function (err) {
       if (err) {
         res.status(500).send({ message: err.message });
@@ -64,6 +64,9 @@ const deleteEmpreendimento = (req, res) => {
         .status(200)
         .send({ message: `Vegócio de ID ${id} deletado/s com sucesso` });
     });
+  } catch (err) {
+      return res.status(424).send({ message: err });
+    }
 }
 module.exports = {
   createEmpreendimentos,
