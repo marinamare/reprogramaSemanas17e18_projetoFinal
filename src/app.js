@@ -1,10 +1,11 @@
+require('dotenv-safe').config();
+
 const express = require("express");
-const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
 const app = express();
 
-mongoose.connect("mongodb://localhost:27017/vegaria", {
+mongoose.connect(`${process.env.MONGODB_URL}`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -20,7 +21,7 @@ db.once("open", function () {
 const empreendimentos = require("./routes/empreendimentosRoutes.js");
 const index = require("./routes/index");
 
-app.use(bodyParser.json());
+app.use(express.json());
 
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
