@@ -4,7 +4,7 @@ const empreendimentosSchema = new mongoose.Schema(
   {
     id: { type: Number },
     nome: { type: String },
-    referênciaVeganaEm: { type: String },
+    referênciaVeganaEm: { type: Array },
     contato: { type: String },
     empreedimentoFísico: { type: Boolean },
     cidadeEstado: { type: String },

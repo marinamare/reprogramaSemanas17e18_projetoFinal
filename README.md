@@ -7,17 +7,21 @@
 ## reprogramaSemanas17e18
 
 ### TÓPICOS
-
-<p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#dependências">Dependências</a> • 
- <a href="#aprendizados">Aprendizados</a> • 
- <a href="#instruçõesParaUtilizaçãoDaAPI">Instruções para Utilização da API</a> • 
- <a href="#informaçõesSobreAsRotas">Informações Sobre as Rotas</a>
-</p>
-
 </div>
+
+<!--ts-->
+   * [Objetivo](#objetivo)
+   * [Tecnologias](#tecnologias)
+      * [VS Code](#visual-code-studio)
+      * [Javascriot e NodeJS](#javascript-e-nodejs)
+      * [Github](#github)
+      * [MongoDB Atlas e Heroku](#mongodb-atlas-e-heroku)
+      * [Postman](#postman)
+   * [Dependências](#dependencias)
+   * [Aprendizados](#aprendizados)
+   * [Instruções para Utilização da API](#instrucoes-para-utilizacao-da-api)
+   * [Informações sobre as rotas](#informacoes-sobre-as-rotas)
+<!--te-->
 
 ## PROJETO FINAL :books: :green_book:
 
@@ -39,9 +43,9 @@ Para o CRUD solicitado, criarei inicialmente as funções de criar, ler, atualiz
 
 <p align="center">
  <a href="#VSCode">Visual Code Studio</a> •
- <a href="#javascriptenodejs">Javascript e NodeJS</a> • 
+ <a href="#javascript-e-nodejs">Javascript e NodeJS</a> • 
  <a href="#github">Github</a> • 
- <a href="#mongodbatlaseheroku">MongoDB Atlas e Heroku</a> • 
+ <a href="#MongoDB-Atlas-e-Heroku">MongoDB Atlas e Heroku</a> • 
  <a href="#postman">Postman</a> • 
  <a href="#dependências">Dependencias</a>
 </p>

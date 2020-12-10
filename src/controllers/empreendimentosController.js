@@ -54,6 +54,28 @@ const updateEmpreendimento = (req, res) => {
   }
 };
 
+const updateStatusEmpreendimento = (req, res) => {
+  try {
+    const id = req.params.id;
+    empreendimentos.updateOne(
+      { id },
+      { $set: req.body.statusAtiva },
+      { upsert: true },
+      function (err) {
+        if (err) {
+          res.status(500).send({ message: err.message });
+        } else {
+          res.status(200).send({
+              message: `Status do vegócio de ID ${id} atualizado com sucesso! :)`,
+            });
+        }
+      }
+    );
+  } catch (err) {
+    return res.status(424).send({ message: err });
+  }
+};
+
 const deleteEmpreendimento = (req, res) => {
     try {const id = req.params.id;
     empreendimentos.deleteOne({ id }, function (err) {
@@ -72,5 +94,6 @@ module.exports = {
   createEmpreendimentos,
   readEmpreendimentos,
   updateEmpreendimento,
+  updateStatusEmpreendimento,
   deleteEmpreendimento
 };
