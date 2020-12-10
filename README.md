@@ -5,24 +5,53 @@
 # Reprograma + Porto Digital - Mulheres em Inovação, Negócios e Artes (MINAs)
 
 ## reprogramaSemanas17e18
+
+### TÓPICOS
+
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#dependências">Dependências</a> • 
+ <a href="#aprendizados">Aprendizados</a> • 
+ <a href="#instruçõesParaUtilizaçãoDaAPI">Instruções para Utilização da API</a> • 
+ <a href="#informaçõesSobreAsRotas">Informações Sobre as Rotas</a>
+</p>
+
 </div>
 
 ## PROJETO FINAL :books: :green_book:
 
 ## OBJETIVO
+<p align="center">
 Com a finalidade de consolidar os conhecimentos aprendidos durante o bootcamp de back-end de 18 semanas da {reprograma}, fomos desafiadas a desenvolver uma API capaz de executar um CRUD em um banco de dados. Precisando também fazer o deploy desse projeto no Heroku e documentar o processo por meio desse repositório no Github.
+</p>
 
 ### VEGARIA: cluster de empreendimentos veganos
-
+<p align="center">
 A fim de apoiar a minha, e a de quem mais tiver interesse, transição do vegetarianismo ao veganismo, criei uma aplicação voltada à união de referências relativas ao estilo de vida vegano, tendo como foco inicial reunir em um só lugar diversos pequenos empreendimentos veganos. 
 
 Para o CRUD solicitado, criarei inicialmente as funções de criar, ler, atualizar e deletar empreendimentos veganos. 
+</p>
 
-## TECNOLOGIAS
+## TECNOLOGIAS 
+
+<img scr="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+
+<p align="center">
+ <a href="#VSCode">Visual Code Studio</a> •
+ <a href="#javascriptenodejs">Javascript e NodeJS</a> • 
+ <a href="#github">Github</a> • 
+ <a href="#mongodbatlaseheroku">MongoDB Atlas e Heroku</a> • 
+ <a href="#postman">Postman</a> • 
+ <a href="#dependências">Dependencias</a>
+</p>
+
+## VSCode
 
 <div style="text-align:center">  
 <img src="./images/vscode.png" width="30%" height="40%">  
 </div>
+
 O ambiente de desenvolvimento de software utilizado foi o Visual Studio Code, indicado desde as primeiras aulas do curso da {reprograma}.
 
 Ao longo da trajetória do bootcamp eu instalei 4 extensões ao programa: 
@@ -32,12 +61,17 @@ Ao longo da trajetória do bootcamp eu instalei 4 extensões ao programa:
 3. Prettier: quando instalada, é possível organizar a identação do código ao invés do comando "Format document with > Prettier"; e
 4.  Material Theme Icons: adiciona um ícone ao lado de cada arquivo, havendo ícones iguais pra arquivos de mesmo tipo e ícones diferentes para tipos diferentes.
 
+## JavaScript e NodeJS
 <div style="text-align:center">  
-<img src="./images/javascript.png" width="30%" height="40%">  
-<img src="./images/nodejs.png" width="40%" height="30%">
+<img src="./images/javascript.png" width="30%" height="40%">
+</div>
+<div style="text-align:center">  
+<img src="./images/nodejs.png" width="50%" height="30%">
 </div>
 
 A linguagem de desenvolvimento do projeto foi JavaScript, tendo sido o NodeJS o ambiente de execução da linguagem utilizado. 
+
+## Github
 
 <div style="text-align:center">
 <img src="./images/github.png">
@@ -45,15 +79,37 @@ A linguagem de desenvolvimento do projeto foi JavaScript, tendo sido o NodeJS o 
 
 A plataforma github foi utilizada para organização e controle das versões do projeto, tendo sido a linguagem git o meio de contato com essa ferramenta.
 
+# MongoDB Atlas e Heroku
+
 <div style="text-align:center">  
-<img src="./images/heroku.png" width="40%" height="40%">  
-<img src="./images/mongoAtlas.png" width="40%" height="30%">
+<img src="./images/mongoAtlas.png" width="40%" height="40%">
 </div>
+
+<div style="text-align:center">  
+<img src="./images/heroku.png" width="40%" height="50%">  
+</div>
+
+
+
 A partir da integração do diretório remoto do Github ao Heroku foi entregue um servidor remoto, o qual foi conectado ao MongoDBAtlas a fim de possibilitar o armazenamento dos dados na nuvem. 
+
+# Postman
+
 <div style="text-align:center">
 <img src="./images/postman.png">
 </div>
+
 Por fim, a fim de testar os métodos HTTP desenvolvidos no empreendimentosController foi utilizado o software Postman. 
+
+
+# Dependências
+Abaixo está uma relação das bibliotecas utilizadas no desenvolvimento do projeto e as versões no momento da última atualização do "README.md".
+
+<img src="https://img.shields.io/static/v1?label=Nodemon&message=2.0.6&color=38EB9B&style=for-the-badge&logo=nodemon"/>
+<img src="https://img.shields.io/static/v1?label=Mongoose&message=50.10.17&color=6D57DE&style=for-the-badge&logo=mongoose"/>
+<img src="https://img.shields.io/static/v1?label=express&message=4.17.1&color=DE432A&style=for-the-badge&logo=mongoose"/>
+<img src="https://img.shields.io/static/v1?label=dotenv-safe&message=8.2.0&color=DECA35&style=for-the-badge&logo=mongoose"/>
+<img src="https://img.shields.io/static/v1?label=body-parser&message=8.2.0&color=40DE97&style=for-the-badge&logo=mongoose"/>
 
 ## APRENDIZADOS 
 
@@ -65,7 +121,19 @@ Também foi nesse processo que realizei a aplicação de variáveis de ambiente 
 
 ## INSTRUÇÕES PARA A UTILIZAÇÃO DA API
 
-São pre-requisitos para o funcionamento do projeto a presença do banco de dados MongoDB, bem como a utilização de um software que permita o teste dos métodos da API, como o postman. 
+São pre-requisitos para o funcionamento do projeto as seguintes ferramentas:
+
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/)
+- [MongoDB](https://www.mongodb.com/)
+
+Além disso, alguns softwares podem ser utilizados para auxiliar o desenvolvimento e a realização de testes, aqui, indico os seguintes: 
+
+Para auxílio no desenvolvimento:
+- [VSCode](https://code.visualstudio.com/)
+
+Para realização de testes dos métodos HTTP:
+- [Postman](https://www.postman.com/)
 
 ### A fim de utilizar a API criada comece por clonar o repositório em três passos: 
 
