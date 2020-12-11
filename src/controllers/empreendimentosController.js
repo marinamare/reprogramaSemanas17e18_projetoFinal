@@ -32,7 +32,7 @@ const readEmpreendimentos = (req, res) => {
   }
 };
 
-const updateEmpreendimento = (req, res) => {
+const updateEmpreendimentoInteiro = (req, res) => {
   try {
     const id = req.params.id;
     empreendimentos.updateOne(
@@ -54,12 +54,12 @@ const updateEmpreendimento = (req, res) => {
   }
 };
 
-const updateStatusEmpreendimento = (req, res) => {
+const updateEmpreendimentoParte = (req, res) => {
   try {
     const id = req.params.id;
     empreendimentos.updateOne(
       { id },
-      { $set: req.body.statusAtiva },
+      { $set: req.body },
       { upsert: true },
       function (err) {
         if (err) {
@@ -93,7 +93,7 @@ const deleteEmpreendimento = (req, res) => {
 module.exports = {
   createEmpreendimentos,
   readEmpreendimentos,
-  updateEmpreendimento,
-  updateStatusEmpreendimento,
+  updateEmpreendimentoInteiro,
+  updateEmpreendimentoParte,
   deleteEmpreendimento
 };
