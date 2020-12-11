@@ -32,6 +32,18 @@ const readEmpreendimentos = (req, res) => {
   }
 };
 
+const readEmpreendimentosAtivos = (req, res) => {
+  try {
+  const status = req.query.statusAtiva
+  empreendimentos.find({ statusAtiva: true}, (err, empreendimentos) => {
+    if(err) res.status(500).send(err.message)
+    res.status(200).send(empreendimentos)
+  })
+} catch (err) {
+  return res.status(424).send({ message: err });
+}
+}
+
 const updateEmpreendimentoInteiro = (req, res) => {
   try {
     const id = req.params.id;
@@ -93,6 +105,7 @@ const deleteEmpreendimento = (req, res) => {
 module.exports = {
   createEmpreendimentos,
   readEmpreendimentos,
+  readEmpreendimentosAtivos,
   updateEmpreendimentoInteiro,
   updateEmpreendimentoParte,
   deleteEmpreendimento
