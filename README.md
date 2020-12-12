@@ -5,9 +5,9 @@
 ## reprogramaSemanas17e18
 ## PROJETO FINAL :books: :green_book:
 
-<img src="./images/vegaria.png" width="100%" height="100%"> 
-
 :construction: STATUS - EM DESENVOLVIMENTO :construction:
+
+<img src="./images/vegaria.png" width="100%" height="100%"> 
 
 ### TÓPICOS
 </div>
@@ -24,6 +24,7 @@
    * [Aprendizados](#aprendizados)
    * [Instruções para Utilização da API](#instrucoes-para-utilizacao-da-api)
    * [Informações sobre as rotas](#informacoes-sobre-as-rotas)
+   * [Próximos passos](#proximos-passos)
 <!--te-->
 
 ## :new_moon: OBJETIVO
@@ -185,3 +186,10 @@ GET BY ID | https://localhost:27017/empreendimentos/:id | https://vegaria.heroku
 UPDATE | https://localhost:27017/:id | https://vegaria.herokuapp.com/empreendimentos/:id
 DELETE | https://localhost:27017/:id | https://vegaria.herokuapp.com/empreendimentos/:id
 PATCH | https://localhost:27017/:id | https://vegaria.herokuapp.com/empreendimentos/:id
+
+## ::zap: PRÓXIMOS PASSOS
+
+A fim de trilhar uma carreira em tecnologia conciliando minha formação em andamento em design e esse impulso que me foi dado pela {reprograma} em relação à área de desenvolvimento, meus próximos passos em relação ao projeto serão buscar formas de desenvolver e integrar interfaces a cada uma das rotas criadas. 
+
+Escolhi fazer isso através do uso do Atomic Design, iniciando o processo por elementos como botões e caixas de diálogo, criando uma espécie de mini design system que dê uma cara ao projeto e possibilite a produção e testagem mais dinâmica dos fluxos dentro da aplicação.
+
