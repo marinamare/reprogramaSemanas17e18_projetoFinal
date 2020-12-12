@@ -138,7 +138,7 @@ Para auxílio no desenvolvimento:
 Para realização de testes dos métodos HTTP:
 - [Postman](https://www.postman.com/)
 
-### A fim de utilizar a API criada comece por clonar o repositório em três passos: 
+### :sparkles: A fim de utilizar a API criada comece por clonar o repositório em três passos: 
 
 1. Copiar o link 
 `https://github.com/marinamare/reprogramaSemanas17e18_projetoFinal.git`
@@ -146,10 +146,10 @@ Para realização de testes dos métodos HTTP:
 3. Abrir o terminal na pasta criada e, efetivamente, clonar o repositório através do comando: 
 `git clone https://github.com/marinamare/reprogramaSemanas17e18_projetoFinal.git`
 
-### Depois de clonado o repositório, é importante instalar as dependências do programa através do:
+### :sparkles: Depois de clonado o repositório, é importante instalar as dependências do programa através do:
 `npm install`
 
-### Posteriormente, é necessário configurar as variáves de ambiente: 
+### :sparkles: Posteriormente, é necessário configurar as variáves de ambiente: 
 
 1. Comece por adicionar um arquivo na raiz da pasta reprogramaSemanas17e18_projetoFinal chamado ".env"
 
@@ -163,7 +163,7 @@ Para realização de testes dos métodos HTTP:
 
 4. No .env, substitua o conteúdo da variável "PORT" por um número de porta a ser utilizada pelo servidor local no momento que ele rodar.
 
-### Caso você opte por rodar localmente, após configurar as variáveis de ambiente no arquivo .env você já pode: 
+### :sparkles: Caso você opte por rodar localmente, após configurar as variáveis de ambiente no arquivo .env você já pode: 
 
 1. Ir ao terminal, na pasta do projeto, e rodar o servidor através do comando 
 `npm run dev`
