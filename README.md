@@ -7,7 +7,8 @@
 
 :construction: STATUS - EM DESENVOLVIMENTO :construction:
 
-<img src="./images/vegaria.png" width="100%" height="100%"> <img src = "https://img.shields.io/github/forks/marinamare/reprogramaSemanas17e18_projetoFinal"> <img src = "https://img.shields.io/static/v1?label=license&message=MIT&color=
+<img src="./images/vegaria.png" width="100%" height="100%"> 
+ <img src = "https://img.shields.io/static/v1?label=license&message=MIT&color=
 "> <a href="https://github.com/marinamare/reprogramaSemanas17e18_projetoFinal/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/marinamare/reprogramaSemanas17e18_projetoFinal"></a> <img src= "https://img.shields.io/github/stars/marinamare/reprogramaSemanas17e18_projetoFinal">
 
 ### TÓPICOS
