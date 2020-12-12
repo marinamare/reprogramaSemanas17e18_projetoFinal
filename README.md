@@ -1,10 +1,11 @@
-<div style="text-align:center">  
-<img src ="./images/minas.png">
-<img src="./images/reprograma-fundos-claros.png" width="40%" height="40%">   <img src="./images/pessoas.png" width="30%" height="30%">
+<div style="text-align:center">    
 
 # Reprograma + Porto Digital - Mulheres em Inovação, Negócios e Artes (MINAs)
 
 ## reprogramaSemanas17e18
+## PROJETO FINAL :books: :green_book:
+
+<img src="./images/vegaria.png" width="100%" height="100%"> 
 
 ### TÓPICOS
 </div>
@@ -22,8 +23,6 @@
    * [Instruções para Utilização da API](#instrucoes-para-utilizacao-da-api)
    * [Informações sobre as rotas](#informacoes-sobre-as-rotas)
 <!--te-->
-
-## PROJETO FINAL :books: :green_book:
 
 ## OBJETIVO
 <p align="center">
