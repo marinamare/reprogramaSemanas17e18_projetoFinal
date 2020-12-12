@@ -27,7 +27,7 @@
    * [Próximos passos](#proximos-passos)
 <!--te-->
 
-## :new_moon: OBJETIVO
+## OBJETIVO :new_moon: 
 <p align="center">
 Com a finalidade de consolidar os conhecimentos aprendidos durante o bootcamp de back-end de 18 semanas da {reprograma}, fomos desafiadas a desenvolver uma API capaz de executar um CRUD em um banco de dados. Precisando também fazer o deploy desse projeto no Heroku e documentar o processo por meio desse repositório no Github.
 </p>
@@ -117,13 +117,13 @@ Abaixo está uma relação das bibliotecas utilizadas no desenvolvimento do proj
 <img src="https://img.shields.io/static/v1?label=dotenv-safe&message=8.2.0&color=DECA35&style=for-the-badge&logo=mongoose"/>
 <img src="https://img.shields.io/static/v1?label=body-parser&message=8.2.0&color=40DE97&style=for-the-badge&logo=mongoose"/>
 
-## :first_quarter_moon: APRENDIZADOS 
+## APRENDIZADOS :first_quarter_moon:
 
 O projeto final foi o momento de por em prática muitos dos conhecimentos com os quais tive contato ao longo das últimas 18 semanas. 
 
 Além de todas as tecnologias utilizadas no projeto, ao longo dele e de todo o curso consegui consolidar habilidades como transformar problemas complexos em pequenos problemas, fazer as coisas por partes e não me desesperar com erros, mas tentar entendê-los, pesquisar sobre eles e pedir ajuda se necessário.
 
-## :waxing_gibbous_moon: INSTRUÇÕES PARA A UTILIZAÇÃO DA API
+## INSTRUÇÕES PARA A UTILIZAÇÃO DA API :waxing_gibbous_moon:
 
 São pre-requisitos para o funcionamento do projeto as seguintes ferramentas:
 
@@ -172,7 +172,7 @@ Para realização de testes dos métodos HTTP:
 2. Ir ao software de interação com a API (aqui estamos utilizando o Postman) e testar as rotas propostas no projeto.
 
 
-## :full_moon: INFORMAÇÕES SOBRE AS ROTAS
+## INFORMAÇÕES SOBRE AS ROTAS :full_moon:
 
 Caso você opte por utilizar o postman, pode importar o arquivo "projetoFinalReprograma.postman_collection.json" que é a coleção feita no programa com todas as rotas.
 
@@ -187,7 +187,7 @@ UPDATE | https://localhost:27017/:id | https://vegaria.herokuapp.com/empreendime
 DELETE | https://localhost:27017/:id | https://vegaria.herokuapp.com/empreendimentos/:id
 PATCH | https://localhost:27017/:id | https://vegaria.herokuapp.com/empreendimentos/:id
 
-## ::zap: PRÓXIMOS PASSOS
+## PRÓXIMOS PASSOS :zap:
 
 A fim de trilhar uma carreira em tecnologia conciliando minha formação em andamento em design e esse impulso que me foi dado pela {reprograma} em relação à área de desenvolvimento, meus próximos passos em relação ao projeto serão buscar formas de desenvolver e integrar interfaces a cada uma das rotas criadas. 
 
