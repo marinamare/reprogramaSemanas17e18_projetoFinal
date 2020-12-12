@@ -39,7 +39,7 @@ A fim de apoiar a minha, e a de quem mais tiver interesse, transição do vegeta
 Para o CRUD solicitado, criarei inicialmente as funções de criar, ler, atualizar e deletar empreendimentos veganos. 
 </p>
 
-## :waxing_crescent_moon: TECNOLOGIAS 
+## TECNOLOGIAS :waxing_crescent_moon:
 
 <img scr="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
 
