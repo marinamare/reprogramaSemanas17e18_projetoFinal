@@ -8,7 +8,11 @@
 :construction: STATUS - EM DESENVOLVIMENTO :construction:
 
 <img src="./images/vegaria.png" width="100%" height="100%"> 
- <img src = "https://img.shields.io/static/v1?label=license&message=MIT&color=uniform"> <a href="https://github.com/marinamare/reprogramaSemanas17e18_projetoFinal/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/marinamare/reprogramaSemanas17e18_projetoFinal"></a> <img src= "https://img.shields.io/github/stars/marinamare/reprogramaSemanas17e18_projetoFinal">
+
+<img src = "https://img.shields.io/static/v1?label=license&message=MIT&color=uniform"> <a href="https://github.com/marinamare/reprogramaSemanas17e18_projetoFinal/network">  <img alt="GitHub forks" src="https://img.shields.io/github/forks/marinamare/reprogramaSemanas17e18_projetoFinal"></a> <img src= "https://img.shields.io/github/stars/marinamare/reprogramaSemanas17e18_projetoFinal">
+ 
+ [<img src="https://img.shields.io/static/v1?label=deploy&message=heroku&color=430098&style=flat">](https://vegaria.herokuapp.com/)
+
 
 ### TÓPICOS
 </div>
@@ -28,6 +32,7 @@
    * [Instruções para Utilização da API](#instrucoes-para-utilizacao-da-api)
    * [Informações sobre as rotas](#informacoes-sobre-as-rotas)
    * [Próximos passos](#proximos-passos)
+   *[Autora](#autora)
 <!--te-->
 
 ## OBJETIVO :new_moon: 
@@ -196,3 +201,14 @@ A fim de trilhar uma carreira em tecnologia conciliando minha formação em anda
 
 Escolhi fazer isso através do uso do Atomic Design, iniciando o processo por elementos como botões e caixas de diálogo, criando uma espécie de mini design system que dê uma cara ao projeto e possibilite a produção e testagem mais dinâmica dos fluxos dentro da aplicação.
 
+## AUTORA :octocat: 
+
+<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/marinamare" width="100px;" alt=""/>
+ <br />
+ <sub><b>Marina Maré</b></sub></a> :ocean:
+
+
+Feito com :green_heart: por Marina Maré 👋🏽 Entre em contato!
+
+[![Twitter Badge](https://img.shields.io/badge/-@marinamare_-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/marinamare_)](https://twitter.com/marinamare_) [![Linkedin Badge](https://img.shields.io/badge/-Maré-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marina-freitas-moura/)](https://www.linkedin.com/in/marina-freitas-moura/) 
+[![Gmail Badge](https://img.shields.io/badge/-marinamaredesign@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:marinamaredesign@gmail.com)](marinamaredesign@gmail.com)
