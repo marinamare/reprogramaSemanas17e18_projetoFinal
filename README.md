@@ -32,7 +32,7 @@
    * [Instruções para Utilização da API](#instrucoes-para-utilizacao-da-api)
    * [Informações sobre as rotas](#informacoes-sobre-as-rotas)
    * [Próximos passos](#proximos-passos)
-   *[Autora](#autora)
+   * [Autora](#autora)
 <!--te-->
 
 ## OBJETIVO :new_moon: 
