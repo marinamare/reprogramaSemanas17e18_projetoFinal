@@ -46,7 +46,7 @@ const readEmpreendimentosAtivos = (req, res) => {
 
 const readEmpreendimentosById = (req, res) => {
   const id = req.params.id
-  empreendimentos.find({ id }, function (err, empreedimentos){
+  empreendimentos.find({ id: id }, function (err, empreendimentos){
     if(err){
       res.status(424).send(err.message)
     } else {
