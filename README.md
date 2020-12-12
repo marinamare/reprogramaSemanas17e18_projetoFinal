@@ -27,11 +27,11 @@
       * [Github](#github)
       * [MongoDB Atlas e Heroku](#mongodb-atlas-e-heroku)
       * [Postman](#postman)
-   * [Dependências](#dependencias)
+   * [Dependências](#dependências)
    * [Aprendizados](#aprendizados)
-   * [Instruções para Utilização da API](#instrucoes-para-utilizacao-da-api)
-   * [Informações sobre as rotas](#informacoes-sobre-as-rotas)
-   * [Próximos passos](#proximos-passos)
+   * [Instruções para a Utilização da API](#instruções-para-a-utilização-da-api)
+   * [Informações sobre as rotas](#informações-sobre-as-rotas)
+   * [Próximos passos](#próximos-passos)
    * [Autora](#autora)
 <!--te-->
 
