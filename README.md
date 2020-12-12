@@ -14,7 +14,7 @@
    * [Objetivo](#objetivo)
    * [Tecnologias](#tecnologias)
       * [VS Code](#visual-code-studio)
-      * [Javascriot e NodeJS](#javascript-e-nodejs)
+      * [Javascript e NodeJS](#javascript-e-nodejs)
       * [Github](#github)
       * [MongoDB Atlas e Heroku](#mongodb-atlas-e-heroku)
       * [Postman](#postman)

@@ -44,6 +44,17 @@ const readEmpreendimentosAtivos = (req, res) => {
 }
 }
 
+const readEmpreendimentosById = (req, res) => {
+  const id = req.params.id
+  empreendimentos.find({ id }, function (err, empreedimentos){
+    if(err){
+      res.status(424).send(err.message)
+    } else {
+      res.status(200).send(empreendimentos)
+    }
+  })
+}
+
 const updateEmpreendimentoInteiro = (req, res) => {
   try {
     const id = req.params.id;
@@ -106,6 +117,7 @@ module.exports = {
   createEmpreendimentos,
   readEmpreendimentos,
   readEmpreendimentosAtivos,
+  readEmpreendimentosById,
   updateEmpreendimentoInteiro,
   updateEmpreendimentoParte,
   deleteEmpreendimento
