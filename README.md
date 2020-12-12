@@ -173,10 +173,15 @@ Para realização de testes dos métodos HTTP:
 
 ## INFORMAÇÕES SOBRE AS ROTAS
 
+Caso você opte por utilizar o postman, pode importar o arquivo "projetoFinalReprograma.postman_collection.json" que é a coleção feita no programa com todas as rotas.
+
 método HTTP      | Rota local       |  Rota Remota
 ---------------- | -----------------| -------------
 POST             | https://localhost:27017/empreendimentos/  | https://vegaria.herokuapp.com/empreendimentos/
 GET ALL | https://localhost:27017/empreendimentos/ | https://vegaria.herokuapp.com/empreendimentos/
 GET INDEX | https://localhost:27017/ | https://vegaria.herokuapp.com/
+GET ATIVOS | https://localhost:27017/empreendimentos/ativos | https://vegaria.herokuapp.com/empreendimentos/ativos
+GET BY ID | https://localhost:27017/empreendimentos/:id | https://vegaria.herokuapp.com/empreendimentos/:id
 UPDATE | https://localhost:27017/:id | https://vegaria.herokuapp.com/empreendimentos/:id
 DELETE | https://localhost:27017/:id | https://vegaria.herokuapp.com/empreendimentos/:id
+PATCH | https://localhost:27017/:id | https://vegaria.herokuapp.com/empreendimentos/:id

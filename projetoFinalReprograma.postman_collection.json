@@ -1,0 +1,126 @@
+{
+	"variables": [],
+	"info": {
+		"name": "projetoFinalReprograma",
+		"_postman_id": "68661b8e-2766-6dae-85ba-bde7d26ec4cd",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create empreendimentos",
+			"request": {
+				"url": "https://vegaria.herokuapp.com/empreendimentos/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"nome\": \"Brota: confeitaria vegana\",\n    \"referênciaVeganaEm\": [\"culinária\", \"confeitaria\"],\n    \"contato\": \"+55 81 99318-0422\",\n    \"empreedimentoFísico\": false,\n    \"cidadeEstado\": \"RecifePE\",\n    \"statusAtiva\": false\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "read index",
+			"request": {
+				"url": "https://vegaria.herokuapp.com/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "read empreendimentos",
+			"request": {
+				"url": "https://vegaria.herokuapp.com/empreendimentos/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "read empreendimento ativos",
+			"request": {
+				"url": "https://vegaria.herokuapp.com/empreendimentos/ativos",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "read empreendimento by id",
+			"request": {
+				"url": "https://vegaria.herokuapp.com/empreendimentos/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update empreendimentos",
+			"request": {
+				"url": "https://vegaria.herokuapp.com/empreendimentos/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"id\": 1,\n    \"nome\": \"vegostices\",\n    \"referênciaVeganaEm\": [\n            \"culinária\", \"cultura\", \"mimos\"\n        ],\n    \"contato\": \"https://www.instagram.com/vegostices/\",\n    \"empreedimentoFísico\": true,\n    \"cidadeEstado\": \"RecifePE\",\n    \"statusAtiva\": false\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete empreendimento",
+			"request": {
+				"url": "https://vegaria.herokuapp.com/empreendimentos/3",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update part empreendimento",
+			"request": {
+				"url": "https://vegaria.herokuapp.com/empreendimentos/1",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"referênciaVeganaEm\": [\n            \"culinária\", \"cultura\", \"mimos\"\n        ]\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
