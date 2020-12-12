@@ -7,6 +7,8 @@
 
 <img src="./images/vegaria.png" width="100%" height="100%"> 
 
+:construction: STATUS - EM DESENVOLVIMENTO :construction:
+
 ### TÓPICOS
 </div>
 
@@ -24,7 +26,7 @@
    * [Informações sobre as rotas](#informacoes-sobre-as-rotas)
 <!--te-->
 
-## OBJETIVO
+## :new_moon: OBJETIVO
 <p align="center">
 Com a finalidade de consolidar os conhecimentos aprendidos durante o bootcamp de back-end de 18 semanas da {reprograma}, fomos desafiadas a desenvolver uma API capaz de executar um CRUD em um banco de dados. Precisando também fazer o deploy desse projeto no Heroku e documentar o processo por meio desse repositório no Github.
 </p>
@@ -36,7 +38,7 @@ A fim de apoiar a minha, e a de quem mais tiver interesse, transição do vegeta
 Para o CRUD solicitado, criarei inicialmente as funções de criar, ler, atualizar e deletar empreendimentos veganos. 
 </p>
 
-## TECNOLOGIAS 
+## :waxing_crescent_moon: TECNOLOGIAS 
 
 <img scr="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
 
@@ -114,15 +116,13 @@ Abaixo está uma relação das bibliotecas utilizadas no desenvolvimento do proj
 <img src="https://img.shields.io/static/v1?label=dotenv-safe&message=8.2.0&color=DECA35&style=for-the-badge&logo=mongoose"/>
 <img src="https://img.shields.io/static/v1?label=body-parser&message=8.2.0&color=40DE97&style=for-the-badge&logo=mongoose"/>
 
-## APRENDIZADOS 
+## :first_quarter_moon: APRENDIZADOS 
 
 O projeto final foi o momento de por em prática muitos dos conhecimentos com os quais tive contato ao longo das últimas 18 semanas. 
 
-No entanto, cabe destacar que os aprendizados que mais pude consolidar foram os relativos ao manejo do banco de dados remoto MongoDB Atlas, bem como do servidor na nuvem do Heroku. 
+Além de todas as tecnologias utilizadas no projeto, ao longo dele e de todo o curso consegui consolidar habilidades como transformar problemas complexos em pequenos problemas, fazer as coisas por partes e não me desesperar com erros, mas tentar entendê-los, pesquisar sobre eles e pedir ajuda se necessário.
 
-Também foi nesse processo que realizei a aplicação de variáveis de ambiente a fim de manter a string de conexão ao banco de dados protegida, tendo sido esse também um exercício inicialmente desconfortável mas que ao ser realizado trouxe bastante aprendizado.
-
-## INSTRUÇÕES PARA A UTILIZAÇÃO DA API
+## :waxing_gibbous_moon: INSTRUÇÕES PARA A UTILIZAÇÃO DA API
 
 São pre-requisitos para o funcionamento do projeto as seguintes ferramentas:
 
@@ -171,7 +171,7 @@ Para realização de testes dos métodos HTTP:
 2. Ir ao software de interação com a API (aqui estamos utilizando o Postman) e testar as rotas propostas no projeto.
 
 
-## INFORMAÇÕES SOBRE AS ROTAS
+## :full_moon: INFORMAÇÕES SOBRE AS ROTAS
 
 Caso você opte por utilizar o postman, pode importar o arquivo "projetoFinalReprograma.postman_collection.json" que é a coleção feita no programa com todas as rotas.
 
