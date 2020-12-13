@@ -208,7 +208,7 @@ Escolhi fazer isso através do uso do Atomic Design, iniciando o processo por el
  <sub><b>Marina Maré</b></sub></a> :ocean:
 
 
-Feito com :green_heart: por Marina Maré 👋🏽 Entre em contato!
+Feito com :green_heart: por Marina Maré com apoio da {reprograma} 👋🏽 Entre em contato!
 
 [![Twitter Badge](https://img.shields.io/badge/-@marinamare_-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/marinamare_)](https://twitter.com/marinamare_) [![Linkedin Badge](https://img.shields.io/badge/-Maré-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marina-freitas-moura/)](https://www.linkedin.com/in/marina-freitas-moura/) 
 [![Gmail Badge](https://img.shields.io/badge/-marinamaredesign@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:marinamaredesign@gmail.com)](marinamaredesign@gmail.com)
